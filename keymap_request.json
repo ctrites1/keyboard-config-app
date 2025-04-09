@@ -1,0 +1,46 @@
+{
+  "keyboard_name": "MySampleKeyboard",
+  "maintainer": "YourName",
+  "description": "A basic test keymap configuration.",
+  "layout_macro": "LAYOUT_ortho_4x3",
+  "layers": [
+    {
+      "name": "Base",
+      "bindings": [
+        {"position": 0, "key": "KC_Q"},
+        {"position": 1, "key": "KC_W"},
+        {"position": 2, "key": "KC_E"},
+        {"position": 3, "key": "KC_R"},
+
+        {"position": 4, "key": "KC_A"},
+        {"position": 5, "key": "KC_S"},
+        {"position": 6, "key": "KC_D"},
+        {"position": 7, "key": "KC_F"},
+
+        {"position": 8, "key": "KC_Z"},
+        {"position": 9, "key": "KC_X"},
+        {"position": 10, "key": "KC_C"},
+        {"position": 11, "key": "MO(1)"}
+      ]
+    },
+    {
+      "name": "Navigation",
+      "bindings": [
+        {"position": 0, "key": "KC_ESC"},
+        {"position": 1, "key": "KC_HOME"},
+        {"position": 2, "key": "KC_UP"},
+        {"position": 3, "key": "KC_END"},
+
+        {"position": 4, "key": "KC_TAB"},
+        {"position": 5, "key": "KC_LEFT"},
+        {"position": 6, "key": "KC_DOWN"},
+        {"position": 7, "key": "KC_RGHT"}, // Note: KC_RGHT is often used for KC_RIGHT
+
+        {"position": 8, "key": "KC_UNDS"}, // Underscore
+        {"position": 9, "key": "KC_PLUS"}, // Plus
+        {"position": 10, "key": "KC_ENT"}, // Enter
+        {"position": 11, "key": "KC_TRNS"} // Transparent (uses the MO(1) from base)
+      ]
+    }
+  ]
+}

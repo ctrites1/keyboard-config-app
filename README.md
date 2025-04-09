@@ -14,3 +14,7 @@ figured I would try out building a ZMK interface myself.
 * **Styling:** Tailwind CSS (via Laravel Breeze scaffolding)
 * **Database:** SQLite (initially, configurable for MySQL, PostgreSQL etc. via `.env`)
 * **PHP Dependency Management:** Composer
+
+## Test Build
+
+* Shields: `cradio_left`, `cradio_right`

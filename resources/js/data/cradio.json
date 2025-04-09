@@ -1,0 +1,90 @@
+{
+    "keyboard": "cradio",
+    "layout": "5x3+2",
+    "layers": [
+        {
+            "name": "default",
+            "bindings": [
+                [
+                    { "behavior": "&kp", "params": ["Q"] },    { "behavior": "&kp", "params": ["W"] },    { "behavior": "&kp", "params": ["E"] },    { "behavior": "&kp", "params": ["R"] },    { "behavior": "&kp", "params": ["T"] },
+                    { "behavior": "&kp", "params": ["Y"] },    { "behavior": "&kp", "params": ["U"] },    { "behavior": "&kp", "params": ["I"] },    { "behavior": "&kp", "params": ["O"] },    { "behavior": "&kp", "params": ["P"] }
+                ],
+                [
+                    { "behavior": "&ht", "params": ["LSHFT", "A"] }, { "behavior": "&ht", "params": ["LALT", "S"] }, { "behavior": "&ht", "params": ["LCTRL", "D"] }, { "behavior": "&ht", "params": ["LGUI", "F"] }, { "behavior": "&kp", "params": ["G"] },
+                    { "behavior": "&kp", "params": ["H"] },    { "behavior": "&kp", "params": ["J"] },    { "behavior": "&ht", "params": ["RCTRL", "K"] }, { "behavior": "&ht", "params": ["RALT", "L"] }, { "behavior": "&ht", "params": ["RSHFT", "SQT"] }
+                ],
+                [
+                    { "behavior": "&kp", "params": ["Z"] },    { "behavior": "&kp", "params": ["X"] },    { "behavior": "&kp", "params": ["C"] },    { "behavior": "&kp", "params": ["V"] },    { "behavior": "&kp", "params": ["B"] },
+                    { "behavior": "&kp", "params": ["N"] },    { "behavior": "&kp", "params": ["M"] },    { "behavior": "&kp", "params": ["COMMA"] }, { "behavior": "&kp", "params": ["DOT"] },   { "behavior": "&kp", "params": ["FSLH"] }
+                ],
+                [
+                    null, null, { "behavior": "&lt", "params": ["2", "TAB"] }, { "behavior": "&kp", "params": ["SPACE"] }, null,
+                    null, { "behavior": "&kp", "params": ["ENTER"] }, { "behavior": "&lt", "params": ["1", "BSPC"] }, null, null
+                ]
+            ]
+        },
+        {
+            "name": "right",
+            "bindings": [
+                [
+                    { "behavior": "&kp", "params": ["INS"] },   { "behavior": "&kp", "params": ["N1"] },    { "behavior": "&kp", "params": ["N2"] },    { "behavior": "&kp", "params": ["N3"] },    { "behavior": "&trans", "params": [] },
+                    { "behavior": "&kp", "params": ["HOME"] },  { "behavior": "&kp", "params": ["PG_DN"] }, { "behavior": "&kp", "params": ["PG_UP"] }, { "behavior": "&kp", "params": ["END"] },   { "behavior": "&kp", "params": ["COLON"] }
+                ],
+                [
+                    { "behavior": "&kp", "params": ["DEL"] },   { "behavior": "&kp", "params": ["N4"] },    { "behavior": "&kp", "params": ["N5"] },    { "behavior": "&kp", "params": ["N6"] },    { "behavior": "&tog", "params": ["4"] },
+                    { "behavior": "&kp", "params": ["LEFT"] },  { "behavior": "&kp", "params": ["DOWN"] },  { "behavior": "&kp", "params": ["UP"] },    { "behavior": "&kp", "params": ["RIGHT"] }, { "behavior": "&kp", "params": ["SEMI"] }
+                ],
+                [
+                    { "behavior": "&caps_word", "params": [] }, { "behavior": "&kp", "params": ["N7"] },    { "behavior": "&kp", "params": ["N8"] },    { "behavior": "&kp", "params": ["N9"] },    { "behavior": "&kp", "params": ["N0"] },
+                    { "behavior": "&kp", "params": ["ESC"] },   { "behavior": "&kp", "params": ["F1"] },    { "behavior": "&kp", "params": ["F2"] },    { "behavior": "&kp", "params": ["F3"] },    { "behavior": "&kp", "params": ["F4"] }
+                ],
+                [
+                    null, null, { "behavior": "&trans", "params": [] }, { "behavior": "&kp", "params": ["ESC"] }, null,
+                    null, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, null, null
+                ]
+            ]
+        },
+        {
+            "name": "left",
+            "bindings": [
+                [
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&kp", "params": ["LBKT"] }, { "behavior": "&kp", "params": ["LBRC"] }, { "behavior": "&kp", "params": ["RBRC"] }, { "behavior": "&trans", "params": [] },
+                    { "behavior": "&kp", "params": ["CARET"] }, { "behavior": "&kp", "params": ["LPAR"] }, { "behavior": "&kp", "params": ["RPAR"] }, { "behavior": "&kp", "params": ["RBKT"] }, { "behavior": "&kp", "params": ["TILDE"] }
+                ],
+                [
+                    { "behavior": "&kp", "params": ["EXCL"] }, { "behavior": "&kp", "params": ["AT"] },    { "behavior": "&kp", "params": ["HASH"] }, { "behavior": "&kp", "params": ["DLLR"] }, { "behavior": "&kp", "params": ["PRCNT"] },
+                    { "behavior": "&kp", "params": ["ASTRK"] }, { "behavior": "&kp", "params": ["MINUS"] }, { "behavior": "&kp", "params": ["EQUAL"] }, { "behavior": "&kp", "params": ["BSLH"] }, { "behavior": "&kp", "params": ["GRAVE"] }
+                ],
+                [
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&tog", "params": ["4"] },
+                    { "behavior": "&kp", "params": ["AMPS"] },  { "behavior": "&kp", "params": ["UNDER"] }, { "behavior": "&kp", "params": ["PLUS"] },  { "behavior": "&kp", "params": ["PIPE"] },  { "behavior": "&trans", "params": [] }
+                ],
+                [
+                    null, null, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, null,
+                    null, { "behavior": "&mcr", "params": ["vscsb"] }, { "behavior": "&mcr", "params": ["vsctm"] }, null, null
+                ]
+            ]
+        },
+        {
+            "name": "tri",
+            "bindings": [
+                [
+                    { "behavior": "&sys_reset", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&bt", "params": ["BT_SEL", "0"] },
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&kp", "params": ["C_BRI_DN"] }, { "behavior": "&kp", "params": ["C_BRI_UP"] }, { "behavior": "&trans", "params": [] }, { "behavior": "&sys_reset", "params": [] }
+                ],
+                [
+                    { "behavior": "&bootloader", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&bt", "params": ["BT_SEL", "1"] },
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&kp", "params": ["C_VOL_DN"] }, { "behavior": "&kp", "params": ["C_VOL_UP"] }, { "behavior": "&trans", "params": [] }, { "behavior": "&bootloader", "params": [] }
+                ],
+                [
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&bt", "params": ["BT_CLR"] }, { "behavior": "&bt", "params": ["BT_SEL", "2"] },
+                    { "behavior": "&trans", "params": [] }, { "behavior": "&tog", "params": ["4"] },    { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }
+                ],
+                [
+                    null, null, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, null,
+                    null, { "behavior": "&trans", "params": [] }, { "behavior": "&trans", "params": [] }, null, null
+                ]
+            ]
+        }
+    ]
+}

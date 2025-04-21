@@ -32,7 +32,12 @@ export default function KeymapCreate({ keyboards }: Props) {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        post('/keymaps');
+        post('/keymaps', {
+            onSuccess: () => {
+                reset('name', 'keyboard_id', 'layout_json');
+                setSelectedKeyboard(null);
+            },
+        });
     };
 
     const handleKeyboardChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -79,7 +84,6 @@ export default function KeymapCreate({ keyboards }: Props) {
                             )}
 
                             <form onSubmit={handleSubmit}>
-                                {/* Name field */}
                                 <div className="mb-4">
                                     <label className="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300" htmlFor="name">
                                         Keymap Name
